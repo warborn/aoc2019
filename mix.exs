@@ -8,7 +8,10 @@ defmodule AdventOfCode2019.MixProject do
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      aliases: aliases()
+      aliases: aliases(),
+      preferred_cli_env: [
+        espec: :test
+      ]
     ]
   end
 
@@ -22,7 +25,8 @@ defmodule AdventOfCode2019.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false},
+      {:espec, "~> 1.7", only: [:test], runtime: false}
     ]
   end
 
