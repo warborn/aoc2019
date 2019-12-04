@@ -1,6 +1,20 @@
 # AdventOfCode2019
 
-**TODO: Add description**
+## Solutions
+
+You can get the solutions of the challenges via:
+
+```sh
+mix solutions
+```
+
+## Tests
+
+You can run the test suite with:
+
+```sh
+mix espec
+```
 
 ## Installation
 

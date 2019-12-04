@@ -32,7 +32,12 @@ defmodule AdventOfCode2019.MixProject do
 
   defp aliases do
     [
-      lint: "credo --strict"
+      lint: "credo --strict",
+      solutions: &solutions/1
     ]
+  end
+
+  defp solutions(_) do
+    Mix.Task.run("run", ["./lib/advent_of_code_2019/solutions.exs"])
   end
 end
