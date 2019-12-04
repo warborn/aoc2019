@@ -1,5 +1,19 @@
 # AdventOfCode2019
 
+## Installation
+
+Clone this repo
+
+```sh
+git clone https://github.com/warborn/aoc2019.git
+```
+
+Install all of the dependencies
+
+```sh
+mix deps.get
+```
+
 ## Solutions
 
 You can get the solutions of the challenges via:
