@@ -26,7 +26,7 @@ defmodule AdventOfCode2019.MixProject do
   defp deps do
     [
       {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false},
-      {:espec, "~> 1.7", only: [:test], runtime: false}
+      {:espec, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
   end
 
