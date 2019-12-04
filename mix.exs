@@ -33,7 +33,8 @@ defmodule AdventOfCode2019.MixProject do
   defp aliases do
     [
       lint: "credo --strict",
-      solutions: &solutions/1
+      solutions: &solutions/1,
+      espec: "espec --trace"
     ]
   end
 
