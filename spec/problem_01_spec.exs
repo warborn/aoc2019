@@ -1,4 +1,4 @@
-defmodule AdventOfCode2019.Fuel do
+defmodule AdventOfCode2019.Problem01Spec do
   @moduledoc false
 
   use ESpec, async: true
@@ -16,7 +16,7 @@ defmodule AdventOfCode2019.Fuel do
     context "from a given mass" do
       it "should return the accumulative fuel needed" do
         expect Problem01.get_accum_fuel(14) |> to(eq 2)
-        expect Problem01.get_accum_fuel(100_756) |> to(eq 50346)
+        expect Problem01.get_accum_fuel(100_756) |> to(eq 50_346)
       end
     end
   end
